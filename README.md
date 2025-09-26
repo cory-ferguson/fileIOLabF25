@@ -29,10 +29,12 @@ while loop(getline(inFile, currentLine)
 
     read counter as a string
     separate the variables with commas
+    clear converter
     convert to an int
 
     read second counter as a string
-    separate the variables with commas (unsure if I have to do this twice)
+    separate the variables with commas 
+    clear converter
     convert to an int
 
     int sum = counter + secondcounter
@@ -40,6 +42,7 @@ while loop(getline(inFile, currentLine)
     read the rest as text
 
     build a for loop for total times
-        print the string    
+        print the string
+    add a endline    
     
 close data.csv file
